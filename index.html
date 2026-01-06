@@ -60,16 +60,16 @@
 
       // --- Mock Images (Updated for Reliability) ---
       const SCENARIO_IMAGES = [
-        "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800", // Hand holding product in store
-        "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=800", // Grocery shelves
-        "https://images.unsplash.com/photo-1604719312566-b7cb0274bc31?auto=format&fit=crop&q=80&w=800", // Blur store background
+        "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800", // Grocery shopping hand
+        "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800", // Convenience store
+        "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=800", // Aisle
       ];
 
       const MOCK_PRODUCTS = {
         good: {
           name: "Oatly Barista Edition",
           brand: "Oatly",
-          image: "https://images.unsplash.com/photo-1638176311291-3617fc82ce78?auto=format&fit=crop&q=80&w=600", // Oat milk
+          image: "https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&q=80&w=600", // Milk bottle
           verdict: "Protocol Match",
           reason: "Fits your active protocol perfectly. No inflammatory oils detected.",
           pros: ["High Fiber", "No Gums", "Fortified B12"],
@@ -83,7 +83,7 @@
         bad: {
           name: "Sugary Puffs",
           brand: "Kelloggs",
-          image: "https://images.unsplash.com/photo-1584778543311-78488b2a688b?auto=format&fit=crop&q=80&w=600", // Cereal box
+          image: "https://images.unsplash.com/photo-1584778543311-78488b2a688b?auto=format&fit=crop&q=80&w=600", // Cereal
           verdict: "Goal Conflict",
           reason: "Contains 14g sugar, violating your daily limit of 10g.",
           pros: ["Budget Friendly"],
@@ -97,7 +97,7 @@
         uncertain: {
           name: "Imported Seasoning Mix",
           brand: "Unknown",
-          image: "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=600", // Spice jars
+          image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600", // Spices
           verdict: "Cannot Confirm Safety",
           reason: "The label lists generic 'Spices'. I cannot confirm it doesn't contain Paprika, considering you're trying to cut down on bloating-causing materials.",
           pros: [],
@@ -112,7 +112,7 @@
 
       const MOCK_COMPARISON_GOOD = {
           name: "Oatly Barista",
-          image: "https://images.unsplash.com/photo-1638176311291-3617fc82ce78?auto=format&fit=crop&q=80&w=600"
+          image: "https://images.unsplash.com/photo-1600718374662-0483d2b9da44?auto=format&fit=crop&q=80&w=600"
       };
       const MOCK_COMPARISON_BAD = {
           name: "Sugary Puffs",
@@ -121,7 +121,7 @@
 
       const WRAPPED_ITEMS = [
         { id: 1, name: "Greek Yogurt", subtitle: "Weekly Staple", price: "₹80", spent: "₹320/mo", image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=600" },
-        { id: 2, name: "Almond Butter", subtitle: "Monthly Buy", price: "₹850", spent: "₹850/mo", image: "https://images.unsplash.com/photo-1552689486-f6773058d196?auto=format&fit=crop&q=80&w=600" },
+        { id: 2, name: "Almond Butter", subtitle: "Monthly Buy", price: "₹850", spent: "₹850/mo", image: "https://images.unsplash.com/photo-1600867023321-72a392c6cc29?auto=format&fit=crop&q=80&w=600" },
         { id: 3, name: "Sourdough", subtitle: "Frequent", price: "₹120", spent: "₹480/mo", image: "https://images.unsplash.com/photo-1585476644321-b91256306751?auto=format&fit=crop&q=80&w=600" },
       ];
 
