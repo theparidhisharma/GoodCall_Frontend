@@ -60,7 +60,7 @@
 
       // --- Mock Images (Updated for Reliability) ---
       const SCENARIO_IMAGES = [
-        "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800", // Grocery shopping hand
+        "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?auto=format&fit=crop&q=80&w=800", // Grocery shopping hand
         "https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&q=80&w=800", // Convenience store
         "https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&q=80&w=800", // Aisle
       ];
@@ -83,7 +83,7 @@
         bad: {
           name: "Sugary Puffs",
           brand: "Kelloggs",
-          image: "https://images.unsplash.com/photo-1584778543311-78488b2a688b?auto=format&fit=crop&q=80&w=600", // Cereal
+          image: "https://images.unsplash.com/photo-1521483450569-e33809c03343?auto=format&fit=crop&q=80&w=600", // Cereal
           verdict: "Goal Conflict",
           reason: "Contains 14g sugar, violating your daily limit of 10g.",
           pros: ["Budget Friendly"],
@@ -97,7 +97,7 @@
         uncertain: {
           name: "Imported Seasoning Mix",
           brand: "Unknown",
-          image: "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=600", // Spices
+          image: "https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&q=80&w=600", // Spices
           verdict: "Cannot Confirm Safety",
           reason: "The label lists generic 'Spices'. I cannot confirm it doesn't contain Paprika, considering you're trying to cut down on bloating-causing materials.",
           pros: [],
@@ -116,13 +116,13 @@
       };
       const MOCK_COMPARISON_BAD = {
           name: "Sugary Puffs",
-          image: "https://images.unsplash.com/photo-1584778543311-78488b2a688b?auto=format&fit=crop&q=80&w=600"
+          image: "https://images.unsplash.com/photo-1521483450569-e33809c03343?auto=format&fit=crop&q=80&w=600"
       };
 
       const WRAPPED_ITEMS = [
         { id: 1, name: "Greek Yogurt", subtitle: "Weekly Staple", price: "₹80", spent: "₹320/mo", image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&q=80&w=600" },
         { id: 2, name: "Almond Butter", subtitle: "Monthly Buy", price: "₹850", spent: "₹850/mo", image: "https://images.unsplash.com/photo-1600867023321-72a392c6cc29?auto=format&fit=crop&q=80&w=600" },
-        { id: 3, name: "Sourdough", subtitle: "Frequent", price: "₹120", spent: "₹480/mo", image: "https://images.unsplash.com/photo-1585476644321-b91256306751?auto=format&fit=crop&q=80&w=600" },
+        { id: 3, name: "Sourdough", subtitle: "Frequent", price: "₹120", spent: "₹480/mo", image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&q=80&w=600" },
       ];
 
       // --- AI Backend Service ---
